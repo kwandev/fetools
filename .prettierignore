@@ -1,0 +1,6 @@
+/src/assets/styles/scss/_reset.scss
+dist
+public
+node_modules
+package.json
+**/*.md

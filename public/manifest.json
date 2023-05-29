@@ -1,0 +1,19 @@
+{
+  "name": "FE 개발 도구",
+  "description": "프론트엔드 개발시 필요한 유용한 도구 모음",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/imgs/icon-16.png",
+      "32": "/imgs/icon-32.png",
+      "96": "/imgs/icon-96.png"
+    }
+  },
+  "icons": {
+    "16": "/imgs/icon-16.png",
+    "32": "/imgs/icon-32.png",
+    "96": "/imgs/icon-96.png"
+  }
+}
