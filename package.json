@@ -19,6 +19,8 @@
     "format": "prettier . --write"
   },
   "dependencies": {
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -26,6 +28,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@vueuse/core": "^8.3.1",
     "axios": "^0.27.1",
+    "codemirror": "^6.0.1",
     "dayjs": "^1.11.1",
     "flowbite": "^1.6.3",
     "lodash": "^4.17.21",
@@ -33,6 +36,7 @@
     "ua-parser-js": "^1.0.32",
     "uuid": "^8.3.2",
     "vue": "^3.2.25",
+    "vue-codemirror": "^6.1.1",
     "vue-gtag-next": "^1.14.0",
     "vue-router": "4"
   },

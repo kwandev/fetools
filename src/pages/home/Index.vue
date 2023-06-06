@@ -2,13 +2,22 @@
   <main class="p-5">
     <div>
       <ul>
-        <li>
+        <li class="mt-3 first:mt-0">
           <button
             type="button"
             class="block w-full rounded-md bg-gradient-to-br from-green-400 to-blue-500 p-3 text-center text-sm"
-            @click="onClickRatio"
+            @click="onClick('Ratio')"
           >
             비율계산기
+          </button>
+        </li>
+        <li class="mt-3 first:mt-0">
+          <button
+            type="button"
+            class="block w-full rounded-md bg-gradient-to-br from-green-400 to-blue-500 p-3 text-center text-sm"
+            @click="onClick('JsonFormatter')"
+          >
+            JSON Formatter
           </button>
         </li>
       </ul>
@@ -21,9 +30,9 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const onClickRatio = () => {
+const onClick = (routeName: string) => {
   router.push({
-    name: 'Ratio',
+    name: routeName,
   });
 };
 </script>

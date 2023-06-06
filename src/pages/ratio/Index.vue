@@ -1,10 +1,6 @@
 <template>
   <div class="p-5">
-    <header class="mb-4 flex items-center justify-between">
-      <button class="px-2 text-lg" @click="onBack">
-        <i class="fa-solid fa-arrow-left"></i>
-      </button>
-    </header>
+    <Header />
 
     <main>
       <form action="" method="post" @submit.prevent>
@@ -172,12 +168,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useRouter } from 'vue-router';
-const [router] = [useRouter()];
-
-const onBack = () => {
-  router.back();
-};
+import Header from '@/components/commons/Header.vue';
 
 const a = ref(null);
 const b = ref(null);

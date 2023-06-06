@@ -18,6 +18,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Ratio',
         component: () => import('@/pages/ratio/Index.vue'),
       },
+      {
+        path: 'json-formatter',
+        name: 'JsonFormatter',
+        component: () => import('@/pages/json-formatter/Index.vue'),
+      },
     ],
   },
   {
