@@ -23,6 +23,11 @@ const routes: RouteRecordRaw[] = [
         name: 'JsonFormatter',
         component: () => import('@/pages/json-formatter/Index.vue'),
       },
+      {
+        path: 'color-picker',
+        name: 'ColorPicker',
+        component: () => import('@/pages/color-picker/Index.vue'),
+      },
     ],
   },
   {

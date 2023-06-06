@@ -8,7 +8,7 @@
             class="block w-full rounded-md bg-gradient-to-br from-green-400 to-blue-500 p-3 text-center text-sm"
             @click="onClick('Ratio')"
           >
-            비율계산기
+            Ratio Calculator
           </button>
         </li>
         <li class="mt-3 first:mt-0">
@@ -18,6 +18,15 @@
             @click="onClick('JsonFormatter')"
           >
             JSON Formatter
+          </button>
+        </li>
+        <li class="mt-3 first:mt-0">
+          <button
+            type="button"
+            class="block w-full rounded-md bg-gradient-to-br from-green-400 to-blue-500 p-3 text-center text-sm"
+            @click="onClick('ColorPicker')"
+          >
+            Color Picker
           </button>
         </li>
       </ul>
